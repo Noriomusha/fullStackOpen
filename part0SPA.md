@@ -6,7 +6,7 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: HTML document
-    deactivate server
+    deactivate serverhttps://github.com/Noriomusha/fullStackOpen/blob/main/part0.md
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
